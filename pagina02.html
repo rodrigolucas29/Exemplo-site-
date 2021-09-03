@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@font-face {
+    font-family: 'Android';
+    src: url(' fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+        }
+
+
+        :root{
+            --cor0:#c5ebd6;
+            --cor1:#83e1ad;
+            --cor2:#3ddc84;
+            --cor3:#2fa866;
+            --cor4:#1a5c37;
+            --cor5:#063d1e;
+
+            --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+            --fonte-destaque:'Bebas Neue', cursive;
+            --fonte-android: 'Android';
+        }
+        *{
+    margin: 0px;
+    padding:0px
+}
+
+
+        
+         body{
+            background-color:var(--cor0);
+            font-family: var(--fonte-padrao);
+            }
+
+            header{
+                background-image: linear-gradient(to bottom, var(--cor2), var(--cor5) );
+                min-height: 150px;
+                text-align: center;
+                padding-top: 30px;
+            }
+
+            header>h1{
+                color: white;
+                font-family: var(--fonte-destaque);
+                margin-bottom: 20px;
+                text-shadow: 2px 2px 0px black;
+            
+            }
+
+            header > p{
+                color: white;
+                font-family: var(--fonte-padrao);
+                font-size: 1.2em;
+                max-width: 600px;
+                padding-right: 10px;
+                padding-left: 10px;
+                margin: auto;
+                margin-bottom: 20px;
+                text-shadow: 2px 2px 0px black;
+            }
+
+            nav{
+                background-color: var(--cor5);
+                padding: 10px;
+                box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.192);
+
+            }
+
+            nav> a {
+                padding: 10px;
+                text-decoration: none;
+                color: var(--cor1);
+                font-weight: bold;
+                transition-duration: 0.5s;
+            }
+
+            nav > a:hover{
+                background-color: var(--cor2);
+                color: var(--cor5);
+            }
+
+            main{
+                min-width: 300px;
+                max-width: 1000px;
+                margin: auto;
+                margin-bottom: 30px;
+                padding: 20px;
+                background-color: white;
+                box-shadow: 0px 0px 10px black;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+           
+
+            
+            main h1{
+                color: var(--cor5);
+                font-family: var(--fonte-android);
+                font-weight: normal;
+            }
+
+            
+            main p{
+                margin: 15px 0px ;
+                text-align: justify;
+                text-indent: 30px;
+                font-size: 1em;
+                line-height: 2em;
+            }
+
+            main strong{
+                color: var(--cor4);
+                font-weight: bold;
+                
+            }
+
+            main a {
+                text-decoration: none;
+                font-weight: bold;
+                color: var(--cor5);
+                margin: 5px;
+                padding: 10px 10px;
+
+            }
+            main a.primeiro{
+               display: inline-block;
+                margin-top: 30px;
+            }
+            main a.segundo{
+                display: inline-block;
+                margin-top: 30px;
+            }
+            main a.terceiro{
+                display: inline-block;
+                margin-top: 30px;
+            }
+            main a.quarto{
+                display: inline-block;
+                margin-top: 30px ;
+            }
+            main a.quinto{
+                display: inline-block;
+                margin-top: 30px;
+            }
+            main a.sexto{
+                display: inline-block;
+                margin-top: 30px;
+            }
+           
+
+            main a:hover{
+                text-decoration: underline;
+                color: var(--cor4);
+            }
+           
+          
+
+            footer{
+                background-color: var(--cor5);
+                color: white;
+                text-align: center;
+                font-size: 0.8em;
+                padding: 5px;
+            }
+
+
+        
+
+    
+
+
+
+
+    </style>
+    
+    
+</head>
+<body>
+    <header>
+        <h1>Curiosidades de Tecnologia</h1>
+
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pagina02.html">Noticias</a>
+        <a href="pagina03.html">Curiosidades</a>
+        <a href="">Fale Conosco</a>
+    </nav>
+    <main>
+        <article>
+            <h1>Novidades</h1>
+            
+            <p><strong>Acompanhe aqui as ultimas noticias sobre o universo do Android</strong></p>
+
+            <div>
+                <img src="imagens/download.jpg" alt="android12" > <a href="https://www.tudocelular.com/google/noticias/n178798/android-12-beta-41-google-correcoes.html" target="_blank" class="primeiro">Android 12 beta 4.1 é lançado pelo google </a>
+            </div>
+
+            <br><img src="imagens/miui12.png" alt="miui12"> <a href="https://www.tudocelular.com/software/noticias/n178888/miui-android-12-xiaomi-testes-beta-celulares-mi-11.html" target="_blank" class="segundo">Miui 12.5 com Anroid</a>
+
+            <br><img src="imagens/jogosandroid.png" alt="jogos android"> <a href="https://www.tudocelular.com/android/noticias/n178808/melhores-jogos-para-android-e-ios-da-semana-26082021.html" target="_blank" class="terceiro">Melhores jogos Android da semana (26/08)</a>
+
+            <br><img src="imagens/realme c21.png" alt="realme c21"> <a href="https://mundoconectado.com.br/noticias/v/20209/realme-c21-recebe-atualizacao-para-o-android-11" target="_blank" class="quarto">Realmi c21 recebe atualização para o Android 11</a>
+
+            <br><img src="imagens/marvel.png" alt="marvel revolution"> <a href="https://www.techtudo.com.br/noticias/2021/08/marvel-future-revolution-e-lancado-para-android-e-iphone-veja-teste.ghtml" target="_blank" class="quinto">Marvel future revolution é lançado para Android</a>
+
+            <br><img src="imagens/galaxys21ultra.png" alt="galaxys21ultra"> <a href="https://canaltech.com.br/smartphone/linha-galaxy-s21-pode-ganhar-atualizacao-para-o-android-12-beta-em-breve-193699/" target="_blank" class="sexto">Galaxy s21 ultra aparece com Android 12</a>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>Site criado por um aluno do curso em video</p>
+    </footer>
+    
+</body>
+</html>
